@@ -4,16 +4,12 @@
   box-sizing: border-box;
 }
 
-.content {
-  padding: 0 30%;
-}
-
 header#main-header {
   background: #243447;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20%;
+  padding: 0 15% 0 20%;
   height: 48px;
 }
 
@@ -31,4 +27,21 @@ header#main-header nav ul {
 header#main-header nav ul li {
   padding: 0 10px;
   background: none;
+}
+
+header#main-header .search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header#main-header .search input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+
+header#main-header .search button {
+  cursor: pointer;
 }
